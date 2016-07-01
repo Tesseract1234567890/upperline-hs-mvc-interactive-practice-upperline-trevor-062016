@@ -1,0 +1,21 @@
+<!DOCTYPE>
+<html>
+   <head>
+      <title> Feeling Better? </title>
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.css">
+      <link rel="stylesheet" href="css/style.css">
+  </head>
+
+   <body>
+     <h1> No matter how you're feeling, there's always this person. </h1>
+     <iframe src="<%=@api_response%>" width="640" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="<%=@api_response %>"></a>
+       <form method = "POST" action ="/feel_better">
+          <input type="hidden" name="feelings" value="<%=@feelings%>">
+          <input type="hidden" name="message" value="<%=@message%>">
+          <input type="submit" class="btn btn-success" value="Not a fan? Do another GIF!">
+       </form>
+       <div class="background-image"></div>
+       <a class="btn btn-info" href="/">Try again from the beginning!<a>
+   </body>
+</html>

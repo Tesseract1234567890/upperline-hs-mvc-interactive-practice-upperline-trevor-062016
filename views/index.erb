@@ -1,0 +1,31 @@
+<!DOCTYPE>
+<html>
+   <head>
+      <title> Gif Comforter </title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.css">
+      <link rel="stylesheet" href="css/style.css">
+  </head>
+   <body>
+
+     <div class="container">
+
+     <h1>Gif Comforter</h1>
+     <h3> Feeling down? You've come to the right place! </h3>
+      <form method = "POST" action ="/feel_better">
+      <p> Tell us how you're feeling! <p>
+         <select type="dropdown" name="feelings" class="btn btn-primary dropdown-toggle">
+            <option value="stupid+">Stupid</option>
+            <option value="dumb+">Dumb</option>
+            <option value="idiot+">Idiotic</option>
+            <option value="fail+">Like a failure</option>
+         </select>
+         <br><br>
+         <p> What's your favorite TV show?</p>
+         <input type="text" name="message" rows="1" cols="30">
+         <br><br>
+         <input type="submit" class="btn btn-success" value="Feel Better!">
+      </form>
+    </div>
+    <div class="background-image"></div>
+   </body>
+</html>

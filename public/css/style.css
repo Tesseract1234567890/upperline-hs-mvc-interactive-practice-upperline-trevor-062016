@@ -1,0 +1,23 @@
+
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: cover;
+    text-align: center;
+    text-indent: inherit;
+    text-shadow: 1px 1px #000000
+}
+
+.background-image{
+    background-image: url('http://media3.giphy.com/media/86AHPcdLEEjBu/giphy.gif');
+    background-size: cover;
+  filter: blur(10px);
+  -webkit-filter: blur(10px);
+  height: 800px;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
